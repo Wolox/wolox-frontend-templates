@@ -1,0 +1,5 @@
+{
+  "title": "Example {{id}}",
+  "text": "I have query params: {{query}}: {{value}}",
+  "backButton": "Back to home"
+}

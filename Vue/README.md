@@ -1,0 +1,1 @@
+# Vuwe frontend template

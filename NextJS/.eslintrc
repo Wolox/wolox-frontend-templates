@@ -1,0 +1,46 @@
+{
+  "extends": [
+    "plugin:import/errors",
+    "plugin:import/warnings",
+    "wolox-react",
+    "@wolox/eslint-config-typescript"
+  ],
+  "plugins": ["@typescript-eslint"],
+  "parser": "@typescript-eslint/parser",
+  "settings": {
+    "react": {
+      "version": "detect"
+    },
+    "import/resolver": {
+      "typescript": {
+        "project": "."
+      },
+      "alias": [
+        ["~components", "./components"],
+        ["~config", "./config"],
+        ["~constants", "./constants/"],
+        ["~context", "./context/"],
+        ["~hooks", "./hooks/"],
+        ["~services", "./services"],
+        ["~utils", "./utils"]
+      ]
+    }
+  },
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "env": {
+    "browser": true,
+    "es2020": true,
+    "node": true,
+    "jest": true
+  },
+  "ignorePatterns": ["node_modules/", ".next/"],
+  "rules": {
+    "react/jsx-uses-react": "off",
+    "react/react-in-jsx-scope": "off"
+  }
+}
