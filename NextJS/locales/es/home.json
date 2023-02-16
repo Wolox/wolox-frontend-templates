@@ -1,0 +1,12 @@
+{
+  "title": "Check next links",
+  "simple": "Simple {{value}}",
+  "dynamic": "Dynamic {{value}} 1",
+  "query": "Dynamic  {{value}} 2 with query params!",
+  "getStarted": "Get started by editing",
+  "getStartedDir": "pages/index.tsx",
+  "more": "More examples",
+  "woloxAlt": "Wolox Logo",
+  "feAlt": "Frontend Army Logo",
+  "foo": "Example"
+}
